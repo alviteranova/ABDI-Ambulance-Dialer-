@@ -13,4 +13,21 @@
         android:text="Button"
         tools:layout_editor_absoluteX="134dp"
         tools:layout_editor_absoluteY="113dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="119dp"
+        android:text="CheckBox"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="161dp" />
 </android.support.constraint.ConstraintLayout>
