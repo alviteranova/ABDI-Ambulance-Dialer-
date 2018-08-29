@@ -4,9 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.kelompok2.abdiambulancedialer.SecondActivity">
-    <style name=”CustomActionBarTheme”
-    parent=”@android:style/Theme.Holo.Light.DarkActionBar”>
-    <item name=”android:actionBarStyle”>@style/MyActionBar</item>
-    </style>
+    tools:context="com.kelompok2.abdiambulancedialer.Main2Activity">
+
 </android.support.constraint.ConstraintLayout>

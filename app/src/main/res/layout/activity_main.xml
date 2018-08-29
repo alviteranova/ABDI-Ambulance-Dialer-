@@ -15,4 +15,19 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.uiudacity.MainActivity">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="294dp"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+
 </android.support.constraint.ConstraintLayout>

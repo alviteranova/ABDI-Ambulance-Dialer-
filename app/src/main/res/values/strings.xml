@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ABDI (Ambulance Dialer)</string>
+    <string name="name">Username</string>
 </resources>
