@@ -2,32 +2,91 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imgLogo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.kelompok2.abdiambulancedialer.MainActivity">
 
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="350dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nama Pengguna"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <EditText
+        android:id="@+id/txtSandi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Kata Sandi"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <CheckBox
+        android:id="@+id/chkIngatkan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingatkan saya"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <Button
+        android:id="@+id/btnMasuk"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Masuk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="440dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Tidak punya akun ? Silahkan"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="499dp" />
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/activity_main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context="com.example.android.uiudacity.MainActivity">
+    <TextView
+        android:id="@+id/abdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Abdi"
+        android:textColor="#d80f0f"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo"
+        tools:layout_editor_absoluteX="178dp" />
 
-        <ImageView
-            android:layout_width="350dp"
-            android:layout_height="294dp"
-            android:src="@drawable/logo" />
-    </LinearLayout>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ambulance Dialer"
+        android:textColor="#d80f0f"
+        app:layout_constraintTop_toBottomOf="@+id/abdi"
+        tools:layout_editor_absoluteX="138dp" />
 
 
 </android.support.constraint.ConstraintLayout>
